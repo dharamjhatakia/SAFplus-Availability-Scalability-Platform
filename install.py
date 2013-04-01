@@ -8,7 +8,7 @@ import types
 import urllib2
 import string
 
-# make sure they have a proper version of python
+# make sure they have a proper version of python.
 if sys.version_info[:3] < (2, 4, 3):
     print "Error: Must use Python 2.4.3 or greater for this script"
     sys.exit(1)
